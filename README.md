@@ -4,9 +4,13 @@ Fixes a [Clickpocalypse 2](https://minmaxia.com/c2/) save file if you get stuck 
 
 ## Usage
 
-python c2-savefixer.py [-h] (-f FILE | -i INPUT) (-l | -r)
+Requires Python 3.
+
+Download both c2-savefixer.py and lzstring.py to the same directory.
 
 ```
+python c2-savefixer.py [-h] (-f FILE | -i INPUT) (-l | -r)
+
 optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Input file
